@@ -1,0 +1,111 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+
+header {
+	background-color: #333;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	color: #b3a7a7;
+	font-size: 32px;
+	margin: 0;
+}
+
+#new-task-form {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+input[type="text"] {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+#new-task-input {
+	width: 300px;
+	margin-right: 10px;
+}
+
+#new-task-submit {
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+main {
+	margin: 20px auto;
+	max-width: 500px;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.task-list h2 {
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+#tasks .task {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #f2f2f2;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.task .content {
+	flex-grow: 1;
+	margin-right: 10px;
+}
+
+.task .content .text {
+	color: #333;
+	font-size: 16px;
+	border: none;
+	padding: 5px;
+	background-color: #f2f2f2;
+	border-radius: 3px;
+}
+
+.task .actions {
+	display: flex;
+}
+
+.task .actions button {
+	margin-left: 5px;
+	background-color: #ccc;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.task .actions button.edit {
+	background-color: #4CAF50;
+}
+
+.task .actions button.delete {
+	background-color: #f44336;
+}

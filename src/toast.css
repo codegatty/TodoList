@@ -1,0 +1,18 @@
+.Toastify__toast-container {
+    z-index: 9999;
+  }
+  
+  .Toastify__toast {
+    background-color: #28282a;
+    color: #F5DEB3; 
+    font-family: "Fira sans", sans-serif;
+  }
+  
+  .Toastify__toast-body {
+    font-size: 16px;
+  }
+
+  .Toastify__progress-bar--animated {
+    background-color: wheat; 
+  }
+  
